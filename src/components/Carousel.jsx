@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const Carousell = () => {
   const navigate = useNavigate();
   return (
-    <Carousel className=" container mx-auto rounded-lg h-[calc(100vh-96px)] md:h-[calc(100vh-96px)]">
+    <Carousel className="container mx-auto rounded-lg h-[calc(100vh-140px)] md:h-[calc(100vh-96px)]">
       <div className="relative h-full w-full">
         <img
           src={kombi}

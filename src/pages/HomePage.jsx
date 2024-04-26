@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 const HomePage = () => {
   return (
-    <div className="relative border-2 container mx-auto rounded-lg border-black ">
+    <div className=" relative border-2 container mx-auto rounded-lg border-black ">
       <Carousell />
       <a href="https://wa.me/905552524411" target="_blank">
         {" "}
