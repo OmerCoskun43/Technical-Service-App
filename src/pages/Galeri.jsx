@@ -37,7 +37,7 @@ export default function Galeri() {
   }, []);
 
   return (
-    <div className="mx-auto container relative ">
+    <div className="mx-auto container relative h-[calc(100vh-150px)] md:h-[calc(100vh-96px)] ">
       <h1 className="text-3xl font-bold absolute top-1 left-1 bg-blue-700 rounded-lg px-2 py-1 z-20 font-[monospace] text-white">
         GALERİ
       </h1>
@@ -50,7 +50,7 @@ export default function Galeri() {
               <li>
                 <img
                   src={kombi}
-                  className="w-full max-w-full h-[calc(100vh-96px)]   m-auto"
+                  className="w-full max-w-full h-[calc(100vh-96px)] object-cover md:object-none  m-auto"
                 />
               </li>
               <li>
@@ -110,7 +110,7 @@ export default function Galeri() {
               <li>
                 <img
                   src={camasir}
-                  className="w-full max-w-full m-auto h-[calc(100vh-96px)] rounded-lg   border-2 border-black"
+                  className="w-full max-w-full m-auto h-[calc(100vh-96px)] rounded-lg object-cover md:object-fill   border-2 border-black"
                 />
               </li>
               <li>
